@@ -1,6 +1,4 @@
 function insertNodeAtTail(head, data) {
-    console.log('head:', head)
-    console.log('data:', data)
     if (!head) {
         head = { data, next: null }
         return head
